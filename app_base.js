@@ -14,6 +14,7 @@ var app = express();
 app.configure('development', function(){
   app.use(require('./utils/livereload').livereloadSnippet);
   app.use(express.errorHandler());
+  app.use(express.static(path.join(__dirname, 'client', '.tmp')));
   app.use(express.static(path.join(__dirname, 'client', 'app')));
 });
 

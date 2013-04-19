@@ -1,0 +1,15 @@
+@import "compass_twitter_bootstrap";
+
+body {
+  background: #EEE;
+}
+
+#hello-box {
+  width: 300px;
+  background: #FFF;
+  margin: 3em auto 0 auto;
+  padding: 1em;
+  text-align: center;
+  @include box-shadow(0 5px 15px rgba(black, 0.2));
+  @include border-radius(5px);
+}
