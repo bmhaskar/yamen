@@ -6,7 +6,7 @@ This is a template project which integrates Yeoman and NodeJS+ExpressJS together
 
 1. Clone the repository
 1. Open a terminal window, go to the cloned directory and run <code>npm install</code>
-1. Go to the 'client' folder and run <code>npm install</code>.
+1. Go to the 'client' folder and run <code>npm install && bower install</code>.
 1. Still in the 'client' folder runs <code>grunt server</code>
 
 ## Testing
