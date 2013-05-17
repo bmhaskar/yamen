@@ -65,8 +65,7 @@ utils.livereloadSnippet = function livereloadSnippet(req, res, next) {
 
   filepath = filepath.slice(-1) === '/' ? filepath + 'index.html' : filepath;
 
-  if (path.extname( filepath ) !== '.html' && res.send === undefined) {
-    console.log('Skipping', filepath);
+  if (path.extname( filepath ) !== '.html') {
     return next();
   }
 
