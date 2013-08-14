@@ -1,12 +1,13 @@
-# Stack using Yeoman 1.0.0-beta.4, Express 3.1.0 and AngularJS
+yamen
+=====
 
-This is a template project which integrates Yeoman and NodeJS+ExpressJS together.
+My first ever experiment with yeoman, angular, express and node
 
 ## Installation
 
 1. Clone the repository
 1. Open a terminal window, go to the cloned directory and run <code>npm install</code>
-1. Go to the 'client' folder and run <code>npm install && bower install</code>.
+1. Go to the 'client' folder and run <code>bower install && npm install</code>.
 1. Still in the 'client' folder runs <code>grunt server</code>
 
 ## Testing
